@@ -42,7 +42,7 @@ section {
   padding: 50px 20px;
 }
 
-#proceso .pasos {
+.pasos {
   display: flex;
   justify-content: space-around;
 }
@@ -51,20 +51,21 @@ section {
   width: 30%;
 }
 
-#beneficios ul {
-  list-style-type: none;
-}
-
-#beneficios li {
-  margin: 10px 0;
-  font-size: 1.2rem;
-}
-
-#testimonios blockquote {
+blockquote {
   font-style: italic;
   color: #7f8c8d;
   border-left: 5px solid #27ae60;
   padding-left: 10px;
+}
+
+.pregunta h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.pregunta p {
+  font-size: 1rem;
+  margin-bottom: 20px;
 }
 
 /* Footer */
