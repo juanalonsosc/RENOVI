@@ -3,49 +3,6 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-h1, h2, h3 {
-    color: #333;
-    text-align: center;
-}
-
-/* Botones */
-.btn {
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: white;
-    display: inline-block;
-    margin: 20px auto;
-    text-align: center;
-}
-
-.cta-btn {
-    background-color: #28a745;
-}
-
-.cta-btn:hover {
-    background-color: #218838;
-}
-
-/* Sección Inicio */
-#inicio {
-    background-color: #fff;
-    padding: 100px 20px;
-    text-align:Aquí tienes el **CSS mejorado** completo para ajustar tu página:
-
-```css
-/* Estilos Generales */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
