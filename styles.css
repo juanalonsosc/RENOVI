@@ -1,83 +1,259 @@
-/* Botones Reutilizables */
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+/* Botones */
 .btn {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    background-color: #4CAF50;
+    color: white;
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
 }
 
 .cta-btn {
-    background-color: #ff6347;
-    color: white;
+    background-color: #28a745;
 }
 
 .cta-btn:hover {
-    background-color: #ff4500;
+    background-color: #218838;
 }
 
-.whatsapp-btn {
-    background-color: #25d366;
-    color: white;
-}
-
-.whatsapp-btn:hover {
-    background-color: #1ebd56;
-}
-
-/* Encabezado */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+/* Sección Inicio */
+#inicio {
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 100px 20px;
+    text-align: center;
 }
 
-.logo img {
-    max-width: 150px;
+#inicio img {
+    max-width: 100%;
+    height: auto;
 }
 
-.menu {
+.scroll-down a {
+    font-size: 30px;
+    color: #4CAF50;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Sección Proceso */
+.proceso {
     display: flex;
-    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+}
+
+.paso {
+    width: 30%;
+}
+
+/* Testimonios */
+.testimonio {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Preguntas Frecuentes */
+.pregunta {
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Sección Contacto */
+form {
+    max-width: 600px;
+   Parece que el mensaje se cortó. Aquí te dejo el CSS optimizado completo, asegurando que cubra todas las secciones que mencionaste, incluido el botón flotante de WhatsApp.
+
+```css
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
-}
-
-.menu li {
-    margin: 0 15px;
-}
-
-.menu li a {
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
     color: #333;
-    transition: color 0.3s;
 }
 
-.menu li a:hover {
-    color: #ff6347;
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
 }
 
-/* Estilos Responsivos */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-end;
-    }
+/* Botones */
+.btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+}
 
-    .menu {
-        flex-direction: column;
-        display: none;
-    }
+.cta-btn {
+    background-color: #28a745;
+}
 
-    .menu.active {
-        display: flex;
-    }
+.cta-btn:hover {
+    background-color: #218838;
+}
 
-    .menu li {
-        margin: 10px 0;
-    }
+/* Sección Inicio */
+#inicio {
+    background-color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
 
-    .btn {
-        margin-top: 10px;
-    }
+#inicio img {
+    max-width: 100%;
+    height: auto;
+}
+
+.scroll-down a {
+    font-size: 30px;
+    color: #4CAF50;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Sección Proceso */
+.proceso {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+}
+
+.paso {
+    width: 30%;
+}
+
+/* Testimonios */
+.testimonio {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Preguntas Frecuentes */
+.pregunta {
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Sección Contacto */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Botón flotante de WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whatsapp-float img {
+    width: 100%;
+    height: 100%;
 }
