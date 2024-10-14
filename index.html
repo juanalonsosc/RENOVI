@@ -1,7 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RENOVI - Resuelve tu hogar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menu = document.querySelector('.menu');
+        const menuToggle = document.querySelector('.menu-toggle');
+        menuToggle.addEventListener('click', function() {
+            menu.classList.toggle('active');
+        });
+    });
+    </script>
+</head>
+<body>
+
+<!-- Encabezado -->
 <header>
     <div class="logo">
         <img src="ruta-del-logo.png" alt="Logo de RENOVI">
     </div>
+    <button class="menu-toggle">☰</button> <!-- Botón para dispositivos móviles -->
     <nav>
         <ul class="menu">
             <li><a href="#inicio">Inicio</a></li>
@@ -15,133 +36,13 @@
         <a href="https://wa.me/xxxxxxxxxx" class="whatsapp-btn" target="_blank">WhatsApp</a>
     </nav>
 </header>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RENOVI - Resuelve tu hogar</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const menu = document.querySelector('.menu');
-        const menuToggle = document.querySelector('.menu-toggle');
 
-        menuToggle.addEventListener('click', function() {
-            menu.classList.toggle('active');
-        });
-    });
-</script>
-</body>
+<!-- Secciones (igual que tu código actual) -->
 
-<body>
-    <!-- Sección de Inicio -->
-    <section id="inicio">
-        <h1>Renovi - Resuelve tu hogar</h1>
-        <p>Te ayudamos a vender tu casa, pagar tu deuda y recuperar parte de tu inversión, sin dañar tu historial crediticio.</p>
-        <a href="#contacto" class="cta-btn">Agenda una revisión gratuita</a>
-    <img src="main/Antes y despues.jpeg" alt="Antes y Despues">
-    </section>
-
-    <!-- Sección Sobre Nosotros -->
-    <section id="sobre-nosotros">
-        <h2>Conoce Renovi, tu aliado para una nueva oportunidad</h2>
-        <p>En Renovi, creemos que nadie debería perder su hogar ni tranquilidad financiera por problemas de deudas o reparaciones...</p>
-        <h3>Nuestra Misión</h3>
-        <p>Nuestra misión es ofrecer a los propietarios soluciones justas y eficientes para vender sus casas...</p>
-        <h3>Valores</h3>
-        <ul>
-            <li><strong>Empatía:</strong> Escuchamos y entendemos las necesidades de nuestros clientes.</li>
-            <li><strong>Transparencia:</strong> Actuamos con claridad y honestidad en cada etapa del proceso.</li>
-            <li><strong>Eficiencia:</strong> Nos encargamos de todo, de principio a fin.</li>
-        </ul>
-    </section>
-
-    <!-- Sección Cómo Funciona -->
-    <section id="como-funciona">
-        <h2>Así funciona Renovi: Simple, rápido y sin complicaciones</h2>
-        <p>En Renovi, nos encargamos de todo para que vender tu casa sea un proceso rápido y sin estrés. Sigue estos pasos:</p>
-        <div>
-            <h3>Revisión Inicial</h3>
-            <p>Evaluamos tu casa y tu deuda para asegurarnos de que califica para nuestro programa. Este proceso es rápido y gratuito.</p>
-        </div>
-        <div>
-            <h3>Arreglos y Reparaciones</h3>
-            <p>Si tu casa califica, hacemos las reparaciones necesarias para que esté en condiciones óptimas para venderse.</p>
-        </div>
-        <div>
-            <h3>Venta y Recuperación</h3>
-            <p>Una vez que tu casa está lista, la ponemos en el mercado. Pagamos tu deuda y recuperas una parte de tu inversión.</p>
-        </div>
-    </section>
-
-    <!-- Sección Testimonios -->
-    <section id="testimonios">
-        <h2>Historias de éxito con Renovi</h2>
-        <blockquote>
-            <p>"Gracias a Renovi, pude vender mi casa y pagar mi deuda. Me ayudaron a recuperar algo de mi dinero."</p>
-            <footer>— Juan P.</footer>
-        </blockquote>
-        <blockquote>
-            <p>"Estaba a punto de perder mi casa por deudas. Renovi la arregló y la vendió rápidamente. Ahora puedo respirar tranquila."</p>
-            <footer>— María S.</footer>
-        </blockquote>
-    </section>
-
-    <section id="faq" style="background-color:#f4f4f4; padding: 50px 20px;">
-    <h2 style="font-size: 28px; color: #333;">Preguntas frecuentes sobre Renovi</h2>
-    
-    <div>
-        <h3 style="font-size: 22px; color: #333;">¿Qué tipo de reparaciones hacen en mi casa?</h3>
-        <p style="font-size: 16px; color: #555;">Nos encargamos de las reparaciones necesarias para que la casa sea atractiva para un nuevo comprador, como pintura, acabados, y pequeños arreglos que no sean estructurales.</p>
-    </div>
-    
-    <div>
-        <h3 style="font-size: 22px; color: #333;">¿Cómo es el proceso de venta y recuperación?</h3>
-        <p style="font-size: 16px; color: #555;">Ponemos tu casa en venta después de realizar las reparaciones necesarias. El proceso incluye pagar tu deuda y permitirte recuperar una parte de tu inversión.</p>
-    </div>
-    
-    <div>
-        <h3 style="font-size: 22px; color: #333;">¿Cuánto tiempo dura todo el proceso?</h3>
-        <p style="font-size: 16px; color: #555;">El proceso completo, desde la revisión inicial hasta la venta de la casa, suele durar entre 4 y 6 semanas, dependiendo del estado de la propiedad y del mercado.</p>
-    </div>
-    
-    <div>
-        <h3 style="font-size: 22px; color: #333;">¿Cuánto cuesta el servicio?</h3>
-        <p style="font-size: 16px; color: #555;">La evaluación de tu casa es completamente gratuita. Renovi cobra una comisión solo si la venta de la casa se realiza con éxito.</p>
-    </div>
-    
-    <div>
-        <h3 style="font-size: 22px; color: #333;">¿Cuánto dinero recuperaré?</h3>
-        <p style="font-size: 16px; color: #555;">Entendemos que no podrás recuperar el valor total de tu inversión, pero nuestro objetivo es que recuperes una parte mientras resolvemos tu deuda. El monto exacto dependerá de tu situación particular, como la deuda pendiente y las reparaciones necesarias.</p>
-    </div>
-</section>
-
-
-    <!-- Sección Contacto -->
-    <section id="contacto">
-        <h2>Contáctanos y recibe una evaluación gratuita</h2>
-        <form action="#" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required>
-
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-
-    <!-- Pie de Página -->
-    <footer>
-        <p>© 2024 RENOVI - Todos los derechos reservados</p>
+<!-- Pie de página optimizado -->
+<footer>
+    <p>© 2024 RENOVI - Todos los derechos reservados</p>
+    <nav>
         <ul>
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
@@ -150,6 +51,7 @@
             <li><a href="#faq">Preguntas Frecuentes</a></li>
             <li><a href="#contacto">Contáctanos</a></li>
         </ul>
-    </footer>
+    </nav>
+</footer>
 </body>
 </html>
