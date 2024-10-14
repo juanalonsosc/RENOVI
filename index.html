@@ -23,6 +23,18 @@
     <title>RENOVI - Resuelve tu hogar</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menu = document.querySelector('.menu');
+        const menuToggle = document.querySelector('.menu-toggle');
+
+        menuToggle.addEventListener('click', function() {
+            menu.classList.toggle('active');
+        });
+    });
+</script>
+</body>
+
 <body>
     <!-- Sección de Inicio -->
     <section id="inicio">
