@@ -37,56 +37,7 @@ h1, h2, h3 {
 #inicio {
     background-color: #fff;
     padding: 100px 20px;
-    text-align: center;
-}
-
-#inicio img {
-    max-width: 100%;
-    height: auto;
-}
-
-.scroll-down a {
-    font-size: 30px;
-    color: #4CAF50;
-    text-decoration: none;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-/* Sección Proceso */
-.proceso {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    padding: 20px;
-}
-
-.paso {
-    width: 30%;
-}
-
-/* Testimonios */
-.testimonio {
-    margin-bottom: 20px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-/* Preguntas Frecuentes */
-.pregunta {
-    margin: 20px 0;
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-/* Sección Contacto */
-form {
-    max-width: 600px;
-   Parece que el mensaje se cortó. Aquí te dejo el CSS optimizado completo, asegurando que cubra todas las secciones que mencionaste, incluido el botón flotante de WhatsApp.
+    text-align:Aquí tienes el **CSS mejorado** completo para ajustar tu página:
 
 ```css
 /* Estilos Generales */
@@ -256,4 +207,29 @@ footer ul li a:hover {
 .whatsapp-float img {
     width: 100%;
     height: 100%;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .menu {
+        flex-direction: column;
+        display: none;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
 }
