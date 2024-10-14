@@ -1,11 +1,11 @@
-/* Estilos Generales */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RENOVI - Resuelve tu hogar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const menu = document.querySelector('.menu');
@@ -16,255 +16,134 @@ body {
         });
     });
 </script>
+<body>
 
-}
+<!-- Sección Inicio -->
+<section id="inicio">
+    <div class="banner">
+        <img src="ruta-imagen.jpg" alt="Antes y después de la casa remodelada">
+        <h1>Renovi - Resuelve tu hogar</h1>
+        <h2>Te ayudamos a vender tu casa, pagar tu deuda y recuperar una parte de tu inversión, sin dañar tu historial crediticio.</h2>
+        <a href="#contacto" class="btn cta-btn">Agenda una revisión gratuita</a>
+        <div class="scroll-down">
+            <a href="#sobre-nosotros">&#x2193;</a>
+        </div>
+    </div>
+</section>
 
-h1, h2, h3 {
-    color: #333;
-    text-align: center;
-}
+<!-- Sección Sobre Nosotros -->
+<section id="sobre-nosotros">
+    <h2>Conoce Renovi, tu aliado para una nueva oportunidad</h2>
+    <div class="content">
+        <p>En Renovi, creemos que nadie debería perder su hogar ni tranquilidad financiera por problemas de deudas o reparaciones...</p>
+        <ul class="valores">
+            <li><strong>Empatía:</strong> Escuchamos y entendemos tus necesidades.</li>
+            <li><strong>Transparencia:</strong> Actuamos con claridad y honestidad.</li>
+            <li><strong>Eficiencia:</strong> Nos encargamos de todo, de principio a fin.</li>
+        </ul>
+        <a href="#como-funciona" class="btn">Conoce cómo te podemos ayudar</a>
+    </div>
+</section>
 
-/* Botones */
-.btn {
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: white;
-    display: inline-block;
-    margin: 20px auto;
-    text-align: center;
-}
+<!-- Sección Cómo Funciona -->
+<section id="como-funciona">
+    <h2>Así funciona Renovi: Simple, rápido y sin complicaciones</h2>
+    <p>En Renovi, nos encargamos de todo para que vender tu casa sea un proceso rápido y sin estrés...</p>
+    <div class="proceso">
+        <div class="paso">
+            <h3>Revisión Inicial</h3>
+            <p>Evaluamos tu casa y tu deuda para asegurarnos de que califica...</p>
+        </div>
+        <div class="paso">
+            <h3>Arreglos y Reparaciones</h3>
+            <p>Si tu casa califica, hacemos las reparaciones necesarias para que esté en condiciones óptimas...</p>
+        </div>
+        <div class="paso">
+            <h3>Venta y Recuperación</h3>
+            <p>Una vez lista, la ponemos en el mercado y pagamos tu deuda.</p>
+        </div>
+    </div>
+    <a href="#contacto" class="btn cta-btn">Agenda tu evaluación gratuita ahora</a>
+</section>
 
-.cta-btn {
-    background-color: #28a745;
-}
+<!-- Sección Testimonios -->
+<section id="testimonios">
+    <h2>Historias de éxito con Renovi</h2>
+    <div class="testimonio">
+        <p>"Gracias a Renovi, pude vender mi casa y pagar mi deuda..."</p>
+        <footer>— Juan P.</footer>
+    </div>
+    <div class="testimonio">
+        <p>"Renovi arregló y vendió mi casa, ayudándome a salir de deudas..."</p>
+        <footer>— María S.</footer>
+    </div>
+    <div class="testimonio">
+        <p>"Vendí mi casa con ayuda de Renovi y recuperé parte de mi inversión..."</p>
+        <footer>— Luis R.</footer>
+    </div>
+    <a href="#contacto" class="btn">Conoce cómo podemos ayudarte</a>
+</section>
 
-.cta-btn:hover {
-    background-color: #218838;
-}
+<!-- Sección FAQ -->
+<section id="faq">
+    <h2>Preguntas frecuentes sobre Renovi</h2>
+    <div class="pregunta">
+        <h3>¿Qué tipo de reparaciones hacen en mi casa?</h3>
+        <p>Nos encargamos de las reparaciones necesarias para que la casa sea atractiva...</p>
+    </div>
+    <div class="pregunta">
+        <h3>¿Cómo es el proceso de venta y recuperación?</h3>
+        <p>Después de las reparaciones, ponemos tu casa en venta...</p>
+    </div>
+    <div class="pregunta">
+        <h3>¿Cuánto tiempo dura todo el proceso?</h3>
+        <p>El proceso completo dura de 4 a 6 semanas...</p>
+    </div>
+    <div class="pregunta">
+        <h3>¿Cuánto cuesta el servicio?</h3>
+        <p>La evaluación de tu casa es completamente gratuita...</p>
+    </div>
+    <div class="pregunta">
+        <h3>¿Cuánto dinero recuperaré?</h3>
+        <p>El monto dependerá de la deuda pendiente y las reparaciones necesarias...</p>
+    </div>
+</section>
 
-/* Sección Inicio */
-#inicio {
-    background-color: #fff;
-    padding: 100px 20px;
-    text-align: center;
-}
+<!-- Sección Contacto -->
+<section id="contacto">
+    <h2>Contáctanos y recibe una evaluación gratuita</h2>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <button type="submit" class="btn cta-btn">Enviar</button>
+    </form>
+</section>
 
-#inicio img {
-    max-width: 100%;
-    height: auto;
-}
+<!-- Pie de Página -->
+<footer>
+    <p>© 2024 RENOVI - Todos los derechos reservados</p>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#como-funciona">Cómo Funciona</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#faq">Preguntas Frecuentes</a></li>
+            <li><a href="#contacto">Contáctanos</a></li>
+        </ul>
+    </nav>
+</footer>
 
-.scroll-down a {
-    font-size: 30px;
-    color: #4CAF50;
-    text-decoration: none;
-    margin-top: 20px;
-    display: inline-block;
-}
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/5211234567890" class="whatsapp-float" target="_blank">
+    <img src="whatsapp-icon.png" alt="WhatsApp">
+</a>
 
-/* Sección Proceso */
-.proceso {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    padding: 20px;
-}
-
-.paso {
-    width: 30%;
-}
-
-/* Testimonios */
-.testimonio {
-    margin-bottom: 20px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-/* Preguntas Frecuentes */
-.pregunta {
-    margin: 20px 0;
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-/* Sección Contacto */
-form {
-    max-width: 600px;
-   Parece que el mensaje se cortó. Aquí te dejo el CSS optimizado completo, asegurando que cubra todas las secciones que mencionaste, incluido el botón flotante de WhatsApp.
-
-```css
-/* Estilos Generales */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-h1, h2, h3 {
-    color: #333;
-    text-align: center;
-}
-
-/* Botones */
-.btn {
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: white;
-    display: inline-block;
-    margin: 20px auto;
-    text-align: center;
-}
-
-.cta-btn {
-    background-color: #28a745;
-}
-
-.cta-btn:hover {
-    background-color: #218838;
-}
-
-/* Sección Inicio */
-#inicio {
-    background-color: #fff;
-    padding: 100px 20px;
-    text-align: center;
-}
-
-#inicio img {
-    max-width: 100%;
-    height: auto;
-}
-
-.scroll-down a {
-    font-size: 30px;
-    color: #4CAF50;
-    text-decoration: none;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-/* Sección Proceso */
-.proceso {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    padding: 20px;
-}
-
-.paso {
-    width: 30%;
-}
-
-/* Testimonios */
-.testimonio {
-    margin-bottom: 20px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-/* Preguntas Frecuentes */
-.pregunta {
-    margin: 20px 0;
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-/* Sección Contacto */
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-form label {
-    display: block;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #218838;
-}
-
-/* Pie de Página */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-footer ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-footer ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-footer ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-footer ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Botón flotante de WhatsApp */
-.whatsapp-float {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px;
-    height: 60px;
-    background-color: #25d366;
-    color: #fff;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
-}
-
-.whatsapp-float img {
-    width: 100%;
-    height: 100%;
-}
+</body>
+</html>
