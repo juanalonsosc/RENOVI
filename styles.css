@@ -1,156 +1,147 @@
-/* General styles */
+/* Estilos Generales */
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f7f7f7;
-  color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-h1, h2 {
-  margin: 20px 0;
-}
-
-section {
-  padding: 50px 20px;
-  margin: 50px 0;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-/* Estilo para las imágenes */
-.responsive-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-}
-
-/* Menú desplegable */
-.dropbtn {
-  background-color: #2c3e50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #27ae60;
-}
-
-footer {
-  background-color: #34495e;
-  color: white;
-  text-align: center;
-  padding: 40px 20px;
-}
-
-footer .cta-button {
-  background-color: #e74c3c;
-  color: white;
-  padding: 15px 30px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 1.1rem;
-}
-
-blockquote {
-  font-style: italic;
-  color: #7f8c8d;
-  border-left: 5px solid #27ae60;
-  padding-left: 10px;
-}
-
-/* Botones principales */
-.cta-button {
-  background-color: #27ae60;
-  color: white;
-  padding: 15px 30px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 1.1rem;
-}
-
-.cta-button:hover {
-  background-color: #2ecc71;
-}
-
-.pregunta h3 {
-  font-size: 1.2rem;
-  margin-bottom: 5px;
-}
-
-.pregunta p {
-  font-size: 1rem;
-  margin-bottom: 20px;
-}
-
-/* Media queries para pantallas móviles */
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 16px;
-  }
-
-  h1 {
-    font-size: 2rem;
+/* Encabezado (Inicio) */
+#inicio {
+    background-color: #fff;
+    padding: 50px 20px;
     text-align: center;
-  }
+}
 
-  h2 {
-    font-size: 1.5rem;
-    text-align: center;
-  }
+#inicio h1 {
+    font-size: 36px;
+    color: #333;
+}
 
-  section {
-    padding: 20px 15px;
-    margin: 20px 0;
-  }
+#inicio p {
+    font-size: 18px;
+    color: #555;
+}
 
-  .cta-button {
-    font-size: 1rem;
+#inicio .cta-btn {
+    margin-top: 20px;
     padding: 10px 20px;
-  }
-
-  .responsive-img {
-    margin-bottom: 15px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
     border-radius: 5px;
-  }
+}
 
-  footer .cta-button {
-    font-size: 1rem;
+#inicio .cta-btn:hover {
+    background-color: #ff4500;
+}
+
+/* Sección General */
+section {
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Testimonios */
+blockquote {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #ff6347;
+    color: #555;
+}
+
+blockquote footer {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Formulario de Contacto */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
     padding: 10px 20px;
-  }
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff4500;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
 }
