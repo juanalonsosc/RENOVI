@@ -9,6 +9,8 @@
     document.addEventListener('DOMContentLoaded', function() {
         const menu = document.querySelector('.menu');
         const menuToggle = document.querySelector('.menu-toggle');
+        
+        // Ensure the button toggles the menu visibility
         menuToggle.addEventListener('click', function() {
             menu.classList.toggle('active');
         });
@@ -32,14 +34,14 @@
             <li><a href="#faq">Preguntas Frecuentes</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
-        <a href="#contacto" class="cta-btn">Agenda una Revisión</a>
-        <a href="https://wa.me/xxxxxxxxxx" class="whatsapp-btn" target="_blank">WhatsApp</a>
+        <a href="#contacto" class="btn cta-btn">Agenda una Revisión</a>
+        <a href="https://wa.me/xxxxxxxxxx" class="btn whatsapp-btn" target="_blank">WhatsApp</a>
     </nav>
 </header>
 
-<!-- Secciones (igual que tu código actual) -->
+<!-- Otras secciones -->
 
-<!-- Pie de página optimizado -->
+<!-- Pie de página -->
 <footer>
     <p>© 2024 RENOVI - Todos los derechos reservados</p>
     <nav>
